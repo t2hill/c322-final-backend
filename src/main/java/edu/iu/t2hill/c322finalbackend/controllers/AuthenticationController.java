@@ -35,6 +35,6 @@ public class AuthenticationController {
 
     @PostMapping("/signin")
     public String login(@RequestBody Customer customer) {
-        return tokenService.generateToken(customer.getEmail(), "ROLE_USER ROLE_ADMIN");
+        return tokenService.generateToken(customer.getUsername(), "ROLE_USER ROLE_ADMIN");
     }
 }

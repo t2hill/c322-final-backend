@@ -1,0 +1,2 @@
+john@email.com,$2a$10$sUxAuySPMuOGfTxTocGwnucqthu4yKOOtkRCPSjtXO9rKMxzHkhWK
+john@email.com,$2a$10$7rptEEd/WtxzQSetqaN1qOLUZMnPL20.DQum7m4ZhGcFCJQ9RRQeG

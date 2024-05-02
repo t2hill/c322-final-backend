@@ -1,12 +1,21 @@
 package edu.iu.t2hill.c322finalbackend.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(schema = "flowers")
 public class Flower {
+    @Id
     private Integer id;
     private String name;
     private Float cost;
     private String type;
     private String occasion;
     private String color;
+
+    public Flower() {}
 
     public Flower(Integer id, String name, Float cost, String type, String occasion, String color) {
         this.id = id;
