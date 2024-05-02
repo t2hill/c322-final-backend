@@ -1,4 +1,4 @@
-HELP.md
+src/main/java/edu/iu/t2hill/c322finalbackend/HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
